@@ -1,5 +1,5 @@
 {
-    "name": "test-evaluator-engine",
+    "name": "expressjs-api",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
