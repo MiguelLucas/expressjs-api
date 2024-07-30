@@ -3,13 +3,13 @@ export const CONSTANTS = {
 
     LOGS: {
         ALL_FILE: 'logs/all.log',
-        ERROR_FILE:  'logs/error.log'
+        ERROR_FILE: 'logs/error.log',
     },
 
     ROUTE_PREFIX: '/api/v1',
-};
+}
 
 export const ROUTES = {
-    ROOT: CONSTANTS.ROUTE_PREFIX + "/",
-    LAB: CONSTANTS.ROUTE_PREFIX + "/lab"
+    ROOT: CONSTANTS.ROUTE_PREFIX + '/',
+    LAB: CONSTANTS.ROUTE_PREFIX + '/lab',
 }

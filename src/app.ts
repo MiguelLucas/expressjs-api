@@ -9,6 +9,8 @@ const port = CONSTANTS.SERVER_PORT
 
 // Middleware to parse JSON bodies
 app.use(express.json())
+// and to support URL-encoded bodies
+app.use(express.urlencoded())
 
 // Use the consolidated routes
 app.use(mainRouter)

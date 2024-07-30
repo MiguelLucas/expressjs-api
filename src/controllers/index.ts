@@ -11,8 +11,7 @@ export const handleJsonPost = (req: Request, res: Response) => {
     }
 
     res.status(200).json({
-        message: "Success",
-        data: { dummy1: "param1"},
+        message: 'Success',
+        data: { dummy1: 'param1' },
     })
-    
 }
